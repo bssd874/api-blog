@@ -1,7 +1,7 @@
 import express from 'express';
 import  PostRepository  from '../repositories /post.repository';
 import  PostService  from '../services/post.service';
-import { PostController } from "../controller /post.controller";
+import { PostController } from "../controllers/post.controller";
 import upload from '../middleware/upload';
 import { validatePost } from '../middleware/validate';
 
