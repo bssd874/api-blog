@@ -1,4 +1,4 @@
-import PostRepository from "../repositories /post.repository";
+import PostRepository from "../repositories/post.repository";
 import { CreatePostDTO, UpdatePostDTO } from "../types/Post";
 import Post from "../models/post.model";
 import { defaultMaxListeners } from "events";

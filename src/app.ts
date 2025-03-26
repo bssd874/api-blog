@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
-import postRoutes from "./routes /post.route";
+import postRoutes from "./routes/post.route";
 import { errorHandler } from "./utils/errorHandler";
 import { logger } from "./utils/logger";
 import errorHandlerMid  from "./middleware/errorHandler";
